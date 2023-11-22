@@ -26,6 +26,9 @@
     margin-bottom: var(--mb-0-25);
 }
 
+.button-home {
+    margin-top: 20px;
+}
 .home__hand {
     width: 38px;
     height: 38px;

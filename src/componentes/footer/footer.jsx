@@ -10,15 +10,15 @@ export const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="foooter__link">About</a>
+                        <a href="#about" className="footer__link">About</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="foooter__link">Proyectos</a>
+                        <a href="#portfolio" className="footer__link">Proyectos</a>
                     </li>
 
                     <li>
-                        <a href="#contact" className="foooter__link">Contacto</a>
+                        <a href="#contact" className="footer__link">Contacto</a>
                     </li>
                 </ul>
 
