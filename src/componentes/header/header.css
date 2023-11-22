@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.918);
 }
 
 .nav__logo,
@@ -75,6 +76,7 @@
     /*Show menu */
     .show-menu {
         bottom: 0;
+        background-color: white;
     }
 
     .nav__list {
