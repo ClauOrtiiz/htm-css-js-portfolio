@@ -13,8 +13,8 @@ export const About = () => {
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
+                
                 <div className="about__data">
-                    <Info />
                     <p className="about__description">
                         Apasionada por el aprendizaje constante y la creatividad.
                         Comencé como Relacionista Público, desarrollando habilidades
@@ -26,11 +26,14 @@ export const About = () => {
                         una comprensión profunda de cómo la tecnología y el diseño pueden crear
                         experiencias innovadoras centradas en el usuario.
                     </p>
-                    <a download="" href={CV} className="button button--flex"> Descargar CV
-                    <i className="uil uil-file-download"></i>
-                    </a>
+                    <Info />
                 </div>
+                <a download="" href={CV} className="button button-download button--flex"> Descargar CV
+                        <i className="uil uil-file-download"></i>
+                    </a>
+    
             </div>
+            
         </section>
     )
 }

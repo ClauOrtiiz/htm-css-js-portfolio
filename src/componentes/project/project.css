@@ -6,14 +6,22 @@
 }
 
 .project__img {
-    width: 348px;
+    width: 265px;
     margin-bottom: 2px;
+    border-radius: 13px;
 }
 
 .section__title {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: 1rem;
+}
+
+.allproject-section__title {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem;
+    display: flex;
 }
 
 .project-section__title {
@@ -38,6 +46,7 @@
     margin-bottom: var(--mb-2);
     justify-content: center;
     flex-wrap: wrap;
+    gap: 0.9rem;
 }
 
 .project__button {

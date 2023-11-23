@@ -14,7 +14,7 @@ export const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Proyectos</a>
+                        <a href="#project" className="footer__link">Proyectos</a>
                     </li>
 
                     <li>

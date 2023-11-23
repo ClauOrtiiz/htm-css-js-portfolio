@@ -1,6 +1,6 @@
 .button {
     background-color: black;
-    gap: 6px;
+    gap: 5px;
     /* margin-top: 22px; */
 }
 
@@ -8,17 +8,22 @@
     background-color: rgb(47, 46, 46);
 }
 
+.button-download{
+    width: 12.5rem;
+    margin-top: -62px;    
+}
+
 .about__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 4rem;
+    align-items: start;
+    /* column-gap: 4rem; */
 }
 
 .about__img {
-    width: 350px;
+    width: 383px;
     border-radius: 1.5rem;
-    justify-self: center;
+    /* justify-self: center; */
 }
 
 .about__info {
@@ -52,11 +57,14 @@
 }
 
 .about__description {
-    padding: 0 1rem 0 0;
+    /* padding: 0 1rem 0 0; */
     margin-bottom: var(--mb-2-5);
+    text-align: justify;
 }
 
-
+.about__download{
+    display: flex;
+}
 /* ---breackpoints--- */
 /* for large devices */
 @media screen and (max-width: 992px) {
@@ -64,6 +72,7 @@
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
+        justify-items: center;
     }
 
     .about__img {
@@ -94,8 +103,9 @@
 
     .about__container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+        justify-items: center;
     }
 
     .about__description {
