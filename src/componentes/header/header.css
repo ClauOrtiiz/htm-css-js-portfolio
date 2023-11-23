@@ -49,6 +49,16 @@
     color: var(--title-color-dark);
 }
 
+.icon__img {
+    width: 35px;
+    margin: 41px 5px 0 0;
+}
+
+.icon__section {
+    display: flex;
+    align-items: center;
+}
+
 /* ---breackpoints--- */
 /* for medium devices */
 @media screen and (max-width: 768px) {
@@ -102,7 +112,7 @@
         color: var(--title-color-dark)
     }
 
-    .nav__toggle{
+    .nav__toggle {
         font-size: 1.1rem;
         cursor: pointer;
     }
@@ -111,6 +121,10 @@
     .nav__close,
     .nav__toggle {
         display: block;
+    }
+
+    .icon__img {
+        visibility: hidden;
     }
 }
 
@@ -124,5 +138,10 @@
 
     .nav__list {
         column-gap: 0;
+    }
+
+
+    .icon__img {
+        visibility: hidden;
     }
 }

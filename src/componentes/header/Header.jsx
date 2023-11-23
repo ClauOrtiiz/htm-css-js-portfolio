@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import IconClau from "../../assets/icon.png"
 import "./header.css";
 
 const Header = () => {
@@ -8,7 +9,11 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">CLAUDIA ORTIZ</a>
+                <div className='icon__section'>
+                    <img src={IconClau} alt="" className="icon__img" />
+                    <a href="index.html" className="nav__logo">CLAUDIA ORTIZ</a>
+                </div>
+
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
@@ -45,9 +50,9 @@ const Header = () => {
                         </li>
                     </ul>
 
-                    <i className='uil uil-times nav__close' onClick={()=> showMenu(!Toggle)}></i>
+                    <i className='uil uil-times nav__close' onClick={() => showMenu(!Toggle)}></i>
                 </div>
-                <div className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
+                <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i className='uil uil-apps'></i>
                 </div>
             </nav>
